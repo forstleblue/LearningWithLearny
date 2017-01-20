@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Sequence Label</key>
+		<string>Brushing teeth</string>
+		<key>Sound</key>
+		<string>Brushing teeth.mp3</string>
+		<key>Data</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>toothpaste on toothbrush</string>
+				<key>imageName</key>
+				<string>toothpaste on toothbrush.jpg</string>
+				<key>titleSound</key>
+				<string>toothpaste on toothbrush.mp3</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>brushing teeth</string>
+				<key>imageName</key>
+				<string>brushing teeth.jpg</string>
+				<key>titleSound</key>
+				<string>Brushing teeth.mp3</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>rinsing mouth</string>
+				<key>imageName</key>
+				<string>rinsing mouth.jpg</string>
+				<key>titleSound</key>
+				<string>rinsing mouth.mp3</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Sequence Label</key>
+		<string>Eating Cereal</string>
+		<key>Sound</key>
+		<string>Eating Cereal.mp3</string>
+		<key>Data</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>pouring cereal in bowl</string>
+				<key>imageName</key>
+				<string>pouring cereal in bowl.jpg</string>
+				<key>titleSound</key>
+				<string>pouring cereal in bowl.mp3</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>pouring milk in cereal</string>
+				<key>imageName</key>
+				<string>pouring milk in cereal.jpg</string>
+				<key>titleSound</key>
+				<string>pouring milk in cereal.mp3</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>eating cereal</string>
+				<key>imageName</key>
+				<string>eating cereal.jpg</string>
+				<key>titleSound</key>
+				<string>Eating Cereal.mp3</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Sequence Label</key>
+		<string>Sweeping the floor</string>
+		<key>Sound</key>
+		<string>Sweeping the floor.mp3</string>
+		<key>Data</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>sweeping dirt into pile</string>
+				<key>imageName</key>
+				<string>sweeping dirt into pile.jpg</string>
+				<key>titleSound</key>
+				<string>sweeping dirt into pile.mp3</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>into dustpan</string>
+				<key>imageName</key>
+				<string>into dustpan.jpg</string>
+				<key>titleSound</key>
+				<string>into dustpan.mp3</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>dirt into garbage</string>
+				<key>imageName</key>
+				<string>dirt into garbage.jpg</string>
+				<key>titleSound</key>
+				<string>dirt into garbage.mp3</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D45BCFE17E7D98E00D15A36 /* AddOwnData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45BCFD17E7D98E00D15A36 /* AddOwnData.m */; };
+		4D45BD4E17E9433E00D15A36 /* rinsing mouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BD4D17E9433E00D15A36 /* rinsing mouth.mp3 */; };
+		4D45BD5017E94C4800D15A36 /* AddyourOwnSequenceViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D45BD4F17E94C4800D15A36 /* AddyourOwnSequenceViewController_iPad.xib */; };
+		4D7F35BE17CC9C64008DDBC6 /* ReadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7F35BD17CC9C64008DDBC6 /* ReadData.m */; };
+		4DB3B1F217CFB1E500C59618 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB3B1F017CFB1E500C59618 /* first.png */; };
+		4DB3B1F317CFB1E500C59618 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB3B1F117CFB1E500C59618 /* second.png */; };
+		4DB3B1F717CFB57E00C59618 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB3B1F517CFB57000C59618 /* AudioToolbox.framework */; };
+		4DB3B1FA17CFB58F00C59618 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB3B1F817CFB58400C59618 /* AVFoundation.framework */; };
+		4DB6B3C917EF0F9E0073BC5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB6B3C817EF0F9E0073BC5D /* QuartzCore.framework */; };
+		4DB8B00B17D08C1D00D113C7 /* LearningLearny.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB8B00A17D08C1D00D113C7 /* LearningLearny.plist */; };
+		4DB8B00D17D0C8C500D113C7 /* ListOfSequencesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB8B00C17D0C8C500D113C7 /* ListOfSequencesViewController_iPad.xib */; };
+		4DB94A2E17ED2EC200FEB3CB /* Yeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DB94A2D17ED2EC200FEB3CB /* Yeah.mp3 */; };
+		4DBBCC6C17D351EE005E58C8 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBBCC6B17D351EE005E58C8 /* MainWindow_iPad.xib */; };
+		4DCCE6F217E412A900EE7515 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCE6F117E412A900EE7515 /* DataManager.m */; };
+		4DD26AE117EC271D00DFE547 /* last.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD26AE017EC271D00DFE547 /* last.mp3 */; };
+		80003CC517A046ED0042DD00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80003CC417A046ED0042DD00 /* UIKit.framework */; };
+		80003CC717A046ED0042DD00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80003CC617A046ED0042DD00 /* Foundation.framework */; };
+		80003CC917A046ED0042DD00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80003CC817A046ED0042DD00 /* CoreGraphics.framework */; };
+		80003CCF17A046ED0042DD00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80003CCD17A046ED0042DD00 /* InfoPlist.strings */; };
+		80003CD117A046ED0042DD00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80003CD017A046ED0042DD00 /* main.m */; };
+		80003CD517A046ED0042DD00 /* LWLSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80003CD417A046ED0042DD00 /* LWLSAppDelegate.m */; };
+		80003CD717A046ED0042DD00 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80003CD617A046ED0042DD00 /* Default.png */; };
+		80003CD917A046ED0042DD00 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80003CD817A046ED0042DD00 /* Default@2x.png */; };
+		80003CDB17A046ED0042DD00 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80003CDA17A046ED0042DD00 /* Default-568h@2x.png */; };
+		80003CDE17A046ED0042DD00 /* LWLSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80003CDD17A046ED0042DD00 /* LWLSViewController.m */; };
+		803FB1BC17A0F050008F3D8D /* HowToUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803FB1BA17A0F050008F3D8D /* HowToUseViewController.m */; };
+		803FB1C017A0F0D8008F3D8D /* HowToUseViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803FB1BE17A0F0D8008F3D8D /* HowToUseViewController_iPad.xib */; };
+		803FB1C117A0F0D8008F3D8D /* HowToUseViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803FB1BF17A0F0D8008F3D8D /* HowToUseViewController_iPhone.xib */; };
+		803FB1C517A169A0008F3D8D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803FB1C317A169A0008F3D8D /* SettingsViewController.m */; };
+		803FB1C917A169F9008F3D8D /* SettingsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803FB1C717A169F9008F3D8D /* SettingsViewController_iPad.xib */; };
+		803FB1CA17A169F9008F3D8D /* SettingsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803FB1C817A169F9008F3D8D /* SettingsViewController_iPhone.xib */; };
+		803FB1CE17A16ABC008F3D8D /* ListOfSequencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803FB1CC17A16ABC008F3D8D /* ListOfSequencesViewController.m */; };
+		803FB1D317A16B1E008F3D8D /* ListOfSequencesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803FB1D117A16B1E008F3D8D /* ListOfSequencesViewController_iPhone.xib */; };
+		804CF05A17F3E11600C4F4AE /* record_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 804CF05617F3E11600C4F4AE /* record_off.png */; };
+		804CF05B17F3E11600C4F4AE /* record_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 804CF05717F3E11600C4F4AE /* record_off@2x.png */; };
+		804CF05C17F3E11600C4F4AE /* record_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 804CF05817F3E11600C4F4AE /* record_on.png */; };
+		804CF05D17F3E11600C4F4AE /* record_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 804CF05917F3E11600C4F4AE /* record_on@2x.png */; };
+		8085B56217A622B100339BC1 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8085B55E17A622B100339BC1 /* image1.png */; };
+		8085B56317A622B100339BC1 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8085B55F17A622B100339BC1 /* image2.png */; };
+		8085B56417A622B100339BC1 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8085B56017A622B100339BC1 /* image3.png */; };
+		8085B56517A622B100339BC1 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8085B56117A622B100339BC1 /* image4.png */; };
+		8088842018047313006ADDB6 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8088841F18047313006ADDB6 /* CustomNavigationController.m */; };
+		8088842318048C49006ADDB6 /* CustomAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8088842218048C49006ADDB6 /* CustomAudioPlayer.m */; };
+		8092BBEE1817FD6100D8D2E8 /* What happens first.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8092BBEC1817FD6100D8D2E8 /* What happens first.mp3 */; };
+		8092BBEF1817FD6100D8D2E8 /* What happens next.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8092BBED1817FD6100D8D2E8 /* What happens next.mp3 */; };
+		80BD59A417A0C21400D4DAA8 /* LWLSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BD59A217A0C21400D4DAA8 /* LWLSViewController_iPad.xib */; };
+		80BD59A517A0C21400D4DAA8 /* LWLSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BD59A317A0C21400D4DAA8 /* LWLSViewController_iPhone.xib */; };
+		80BD59A717A0C25A00D4DAA8 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BD59A617A0C25A00D4DAA8 /* MainWindow_iPhone.xib */; };
+		80C6925617C6874A006CE194 /* brushing teeth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C6924B17C6874A006CE194 /* brushing teeth.jpg */; };
+		80C6925717C6874A006CE194 /* rinsing mouth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C6924C17C6874A006CE194 /* rinsing mouth.jpg */; };
+		80C6925817C6874A006CE194 /* toothpaste on toothbrush.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C6924D17C6874A006CE194 /* toothpaste on toothbrush.jpg */; };
+		80C6925917C6874A006CE194 /* eating cereal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C6924F17C6874A006CE194 /* eating cereal.jpg */; };
+		80C6925A17C6874A006CE194 /* pouring cereal in bowl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C6925017C6874A006CE194 /* pouring cereal in bowl.jpg */; };
+		80C6925B17C6874A006CE194 /* pouring milk in cereal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C6925117C6874A006CE194 /* pouring milk in cereal.jpg */; };
+		80C6925C17C6874A006CE194 /* dirt into garbage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C6925317C6874A006CE194 /* dirt into garbage.jpg */; };
+		80C6925D17C6874A006CE194 /* into dustpan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C6925417C6874A006CE194 /* into dustpan.jpg */; };
+		80C6925E17C6874A006CE194 /* sweeping dirt into pile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80C6925517C6874A006CE194 /* sweeping dirt into pile.jpg */; };
+		80E8B5A617A185C900BE6390 /* SequenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E8B5A417A185C900BE6390 /* SequenceViewController.m */; };
+		80E8B5AA17A1861B00BE6390 /* SequenceViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E8B5A817A1861B00BE6390 /* SequenceViewController_iPad.xib */; };
+		80E8B5AB17A1861B00BE6390 /* SequenceViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E8B5A917A1861B00BE6390 /* SequenceViewController_iPhone.xib */; };
+		C35CD06717E789A0007727F4 /* AddyourOwnSequenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35CD06517E7899E007727F4 /* AddyourOwnSequenceViewController.m */; };
+		C35CD06817E789A0007727F4 /* AddyourOwnSequenceViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35CD06617E7899F007727F4 /* AddyourOwnSequenceViewController_iPhone.xib */; };
+		CE126D7917E9A65C00829403 /* SaveVoiceViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE126D7817E9A65C00829403 /* SaveVoiceViewController_iPad.xib */; };
+		CE764C3717E8A1650009ED1F /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C2617E8A1650009ED1F /* background.mp3 */; };
+		CE764C3817E8A1650009ED1F /* Brushing teeth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C2717E8A1650009ED1F /* Brushing teeth.mp3 */; };
+		CE764C3917E8A1650009ED1F /* dirt into garbage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C2817E8A1650009ED1F /* dirt into garbage.mp3 */; };
+		CE764C3A17E8A1650009ED1F /* eating cereal .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C2917E8A1650009ED1F /* eating cereal .mp3 */; };
+		CE764C3B17E8A1650009ED1F /* Eating Cereal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C2A17E8A1650009ED1F /* Eating Cereal.mp3 */; };
+		CE764C3C17E8A1650009ED1F /* into dustpan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C2B17E8A1650009ED1F /* into dustpan.mp3 */; };
+		CE764C3D17E8A1650009ED1F /* Oops.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C2C17E8A1650009ED1F /* Oops.mp3 */; };
+		CE764C3E17E8A1650009ED1F /* pouring cereal in bowl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C2D17E8A1650009ED1F /* pouring cereal in bowl.mp3 */; };
+		CE764C3F17E8A1650009ED1F /* pouring milk in cereal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C2E17E8A1650009ED1F /* pouring milk in cereal.mp3 */; };
+		CE764C4017E8A1650009ED1F /* Put the pictures in the correct order.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C2F17E8A1650009ED1F /* Put the pictures in the correct order.mp3 */; };
+		CE764C4117E8A1650009ED1F /* sweeping dirt into pile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C3017E8A1650009ED1F /* sweeping dirt into pile.mp3 */; };
+		CE764C4217E8A1650009ED1F /* Sweeping the floor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C3117E8A1650009ED1F /* Sweeping the floor.mp3 */; };
+		CE764C4317E8A1650009ED1F /* toothpaste on toothbrush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C3217E8A1650009ED1F /* toothpaste on toothbrush.mp3 */; };
+		CE764C4417E8A1650009ED1F /* Try again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C3317E8A1650009ED1F /* Try again.mp3 */; };
+		CE764C4517E8A1650009ED1F /* Way to go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C3417E8A1650009ED1F /* Way to go.mp3 */; };
+		CE764C4717E8A1650009ED1F /* You got it.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE764C3617E8A1650009ED1F /* You got it.mp3 */; };
+		CE79805A17EC05CC001970D9 /* applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE79805517EC05CC001970D9 /* applause.mp3 */; };
+		CE79805B17EC05CC001970D9 /* first.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE79805617EC05CC001970D9 /* first.mp3 */; };
+		CE79805D17EC05CC001970D9 /* second.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE79805817EC05CC001970D9 /* second.mp3 */; };
+		CE79805E17EC05CC001970D9 /* third.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE79805917EC05CC001970D9 /* third.mp3 */; };
+		CEA976CA17E7635000D1D3AD /* SaveVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA976C817E7635000D1D3AD /* SaveVoiceViewController.m */; };
+		CEA976CB17E7635000D1D3AD /* SaveVoiceViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA976C917E7635000D1D3AD /* SaveVoiceViewController_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D45BCFC17E7D98E00D15A36 /* AddOwnData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOwnData.h; sourceTree = "<group>"; };
+		4D45BCFD17E7D98E00D15A36 /* AddOwnData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddOwnData.m; sourceTree = "<group>"; };
+		4D45BD4D17E9433E00D15A36 /* rinsing mouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rinsing mouth.mp3"; sourceTree = "<group>"; };
+		4D45BD4F17E94C4800D15A36 /* AddyourOwnSequenceViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddyourOwnSequenceViewController_iPad.xib; sourceTree = "<group>"; };
+		4D7F35B917CC9AA6008DDBC6 /* NameConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameConstant.h; sourceTree = "<group>"; };
+		4D7F35BC17CC9C64008DDBC6 /* ReadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadData.h; sourceTree = "<group>"; };
+		4D7F35BD17CC9C64008DDBC6 /* ReadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadData.m; sourceTree = "<group>"; };
+		4DB3B1F017CFB1E500C59618 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = images/first.png; sourceTree = "<group>"; };
+		4DB3B1F117CFB1E500C59618 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = images/second.png; sourceTree = "<group>"; };
+		4DB3B1F517CFB57000C59618 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4DB3B1F817CFB58400C59618 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4DB6B3C817EF0F9E0073BC5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4DB8B00A17D08C1D00D113C7 /* LearningLearny.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = LearningLearny.plist; path = ../LearningLearny.plist; sourceTree = "<group>"; };
+		4DB8B00C17D0C8C500D113C7 /* ListOfSequencesViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListOfSequencesViewController_iPad.xib; sourceTree = "<group>"; };
+		4DB94A2D17ED2EC200FEB3CB /* Yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Yeah.mp3; path = LearningWithLenny/Resources/voice/Yeah.mp3; sourceTree = SOURCE_ROOT; };
+		4DBBCC6B17D351EE005E58C8 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		4DCCE6F017E412A900EE7515 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		4DCCE6F117E412A900EE7515 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		4DD26AE017EC271D00DFE547 /* last.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = last.mp3; sourceTree = "<group>"; };
+		80003CC117A046ED0042DD00 /* LearningWithLenny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningWithLenny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80003CC417A046ED0042DD00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80003CC617A046ED0042DD00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80003CC817A046ED0042DD00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80003CCC17A046ED0042DD00 /* LearningWithLenny-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearningWithLenny-Info.plist"; sourceTree = "<group>"; };
+		80003CCE17A046ED0042DD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80003CD017A046ED0042DD00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80003CD217A046ED0042DD00 /* LearningWithLenny-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearningWithLenny-Prefix.pch"; sourceTree = "<group>"; };
+		80003CD317A046ED0042DD00 /* LWLSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWLSAppDelegate.h; sourceTree = "<group>"; };
+		80003CD417A046ED0042DD00 /* LWLSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWLSAppDelegate.m; sourceTree = "<group>"; };
+		80003CD617A046ED0042DD00 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		80003CD817A046ED0042DD00 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		80003CDA17A046ED0042DD00 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		80003CDC17A046ED0042DD00 /* LWLSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWLSViewController.h; sourceTree = "<group>"; };
+		80003CDD17A046ED0042DD00 /* LWLSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWLSViewController.m; sourceTree = "<group>"; };
+		803FB1B917A0F050008F3D8D /* HowToUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowToUseViewController.h; sourceTree = "<group>"; };
+		803FB1BA17A0F050008F3D8D /* HowToUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowToUseViewController.m; sourceTree = "<group>"; };
+		803FB1BE17A0F0D8008F3D8D /* HowToUseViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HowToUseViewController_iPad.xib; sourceTree = "<group>"; };
+		803FB1BF17A0F0D8008F3D8D /* HowToUseViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HowToUseViewController_iPhone.xib; sourceTree = "<group>"; };
+		803FB1C217A169A0008F3D8D /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		803FB1C317A169A0008F3D8D /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		803FB1C717A169F9008F3D8D /* SettingsViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController_iPad.xib; sourceTree = "<group>"; };
+		803FB1C817A169F9008F3D8D /* SettingsViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController_iPhone.xib; sourceTree = "<group>"; };
+		803FB1CB17A16ABC008F3D8D /* ListOfSequencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfSequencesViewController.h; sourceTree = "<group>"; };
+		803FB1CC17A16ABC008F3D8D /* ListOfSequencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfSequencesViewController.m; sourceTree = "<group>"; };
+		803FB1D117A16B1E008F3D8D /* ListOfSequencesViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListOfSequencesViewController_iPhone.xib; sourceTree = "<group>"; };
+		804CF05617F3E11600C4F4AE /* record_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record_off.png; sourceTree = "<group>"; };
+		804CF05717F3E11600C4F4AE /* record_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record_off@2x.png"; sourceTree = "<group>"; };
+		804CF05817F3E11600C4F4AE /* record_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record_on.png; sourceTree = "<group>"; };
+		804CF05917F3E11600C4F4AE /* record_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record_on@2x.png"; sourceTree = "<group>"; };
+		8085B55E17A622B100339BC1 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		8085B55F17A622B100339BC1 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		8085B56017A622B100339BC1 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		8085B56117A622B100339BC1 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		8088841E18047313006ADDB6 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		8088841F18047313006ADDB6 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		8088842118048C49006ADDB6 /* CustomAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAudioPlayer.h; sourceTree = "<group>"; };
+		8088842218048C49006ADDB6 /* CustomAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAudioPlayer.m; sourceTree = "<group>"; };
+		8092BBEC1817FD6100D8D2E8 /* What happens first.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "What happens first.mp3"; sourceTree = "<group>"; };
+		8092BBED1817FD6100D8D2E8 /* What happens next.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "What happens next.mp3"; sourceTree = "<group>"; };
+		80BD59A217A0C21400D4DAA8 /* LWLSViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LWLSViewController_iPad.xib; sourceTree = "<group>"; };
+		80BD59A317A0C21400D4DAA8 /* LWLSViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LWLSViewController_iPhone.xib; sourceTree = "<group>"; };
+		80BD59A617A0C25A00D4DAA8 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		80C6924B17C6874A006CE194 /* brushing teeth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brushing teeth.jpg"; sourceTree = "<group>"; };
+		80C6924C17C6874A006CE194 /* rinsing mouth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rinsing mouth.jpg"; sourceTree = "<group>"; };
+		80C6924D17C6874A006CE194 /* toothpaste on toothbrush.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "toothpaste on toothbrush.jpg"; sourceTree = "<group>"; };
+		80C6924F17C6874A006CE194 /* eating cereal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eating cereal.jpg"; sourceTree = "<group>"; };
+		80C6925017C6874A006CE194 /* pouring cereal in bowl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pouring cereal in bowl.jpg"; sourceTree = "<group>"; };
+		80C6925117C6874A006CE194 /* pouring milk in cereal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pouring milk in cereal.jpg"; sourceTree = "<group>"; };
+		80C6925317C6874A006CE194 /* dirt into garbage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dirt into garbage.jpg"; sourceTree = "<group>"; };
+		80C6925417C6874A006CE194 /* into dustpan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "into dustpan.jpg"; sourceTree = "<group>"; };
+		80C6925517C6874A006CE194 /* sweeping dirt into pile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sweeping dirt into pile.jpg"; sourceTree = "<group>"; };
+		80E8B5A317A185C900BE6390 /* SequenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequenceViewController.h; sourceTree = "<group>"; };
+		80E8B5A417A185C900BE6390 /* SequenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SequenceViewController.m; sourceTree = "<group>"; };
+		80E8B5A817A1861B00BE6390 /* SequenceViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SequenceViewController_iPad.xib; sourceTree = "<group>"; };
+		80E8B5A917A1861B00BE6390 /* SequenceViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SequenceViewController_iPhone.xib; sourceTree = "<group>"; };
+		C35CD06417E7899E007727F4 /* AddyourOwnSequenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddyourOwnSequenceViewController.h; sourceTree = "<group>"; };
+		C35CD06517E7899E007727F4 /* AddyourOwnSequenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddyourOwnSequenceViewController.m; sourceTree = "<group>"; };
+		C35CD06617E7899F007727F4 /* AddyourOwnSequenceViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddyourOwnSequenceViewController_iPhone.xib; path = ../../AddyourOwnSequenceViewController_iPhone.xib; sourceTree = "<group>"; };
+		CE126D7817E9A65C00829403 /* SaveVoiceViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaveVoiceViewController_iPad.xib; sourceTree = "<group>"; };
+		CE764C2617E8A1650009ED1F /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		CE764C2717E8A1650009ED1F /* Brushing teeth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Brushing teeth.mp3"; sourceTree = "<group>"; };
+		CE764C2817E8A1650009ED1F /* dirt into garbage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dirt into garbage.mp3"; sourceTree = "<group>"; };
+		CE764C2917E8A1650009ED1F /* eating cereal .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "eating cereal .mp3"; sourceTree = "<group>"; };
+		CE764C2A17E8A1650009ED1F /* Eating Cereal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Eating Cereal.mp3"; sourceTree = "<group>"; };
+		CE764C2B17E8A1650009ED1F /* into dustpan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "into dustpan.mp3"; sourceTree = "<group>"; };
+		CE764C2C17E8A1650009ED1F /* Oops.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Oops.mp3; sourceTree = "<group>"; };
+		CE764C2D17E8A1650009ED1F /* pouring cereal in bowl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pouring cereal in bowl.mp3"; sourceTree = "<group>"; };
+		CE764C2E17E8A1650009ED1F /* pouring milk in cereal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pouring milk in cereal.mp3"; sourceTree = "<group>"; };
+		CE764C2F17E8A1650009ED1F /* Put the pictures in the correct order.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Put the pictures in the correct order.mp3"; sourceTree = "<group>"; };
+		CE764C3017E8A1650009ED1F /* sweeping dirt into pile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sweeping dirt into pile.mp3"; sourceTree = "<group>"; };
+		CE764C3117E8A1650009ED1F /* Sweeping the floor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sweeping the floor.mp3"; sourceTree = "<group>"; };
+		CE764C3217E8A1650009ED1F /* toothpaste on toothbrush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "toothpaste on toothbrush.mp3"; sourceTree = "<group>"; };
+		CE764C3317E8A1650009ED1F /* Try again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Try again.mp3"; sourceTree = "<group>"; };
+		CE764C3417E8A1650009ED1F /* Way to go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Way to go.mp3"; sourceTree = "<group>"; };
+		CE764C3617E8A1650009ED1F /* You got it.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "You got it.mp3"; sourceTree = "<group>"; };
+		CE79805517EC05CC001970D9 /* applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = applause.mp3; sourceTree = "<group>"; };
+		CE79805617EC05CC001970D9 /* first.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = first.mp3; sourceTree = "<group>"; };
+		CE79805817EC05CC001970D9 /* second.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = second.mp3; sourceTree = "<group>"; };
+		CE79805917EC05CC001970D9 /* third.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = third.mp3; sourceTree = "<group>"; };
+		CEA976C717E7635000D1D3AD /* SaveVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveVoiceViewController.h; sourceTree = "<group>"; };
+		CEA976C817E7635000D1D3AD /* SaveVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveVoiceViewController.m; sourceTree = "<group>"; };
+		CEA976C917E7635000D1D3AD /* SaveVoiceViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SaveVoiceViewController_iPhone.xib; path = ../../SaveVoiceViewController_iPhone.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80003CBE17A046ED0042DD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB6B3C917EF0F9E0073BC5D /* QuartzCore.framework in Frameworks */,
+				4DB3B1F717CFB57E00C59618 /* AudioToolbox.framework in Frameworks */,
+				4DB3B1FA17CFB58F00C59618 /* AVFoundation.framework in Frameworks */,
+				80003CC517A046ED0042DD00 /* UIKit.framework in Frameworks */,
+				80003CC717A046ED0042DD00 /* Foundation.framework in Frameworks */,
+				80003CC917A046ED0042DD00 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DB3B1F417CFB1EF00C59618 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				CE764C2517E8A1650009ED1F /* Music */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		80003CB817A046ED0042DD00 = {
+			isa = PBXGroup;
+			children = (
+				80003CCA17A046ED0042DD00 /* LearningWithLenny */,
+				80003CC317A046ED0042DD00 /* Frameworks */,
+				80003CC217A046ED0042DD00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80003CC217A046ED0042DD00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80003CC117A046ED0042DD00 /* LearningWithLenny.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80003CC317A046ED0042DD00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DB6B3C817EF0F9E0073BC5D /* QuartzCore.framework */,
+				4DB3B1F817CFB58400C59618 /* AVFoundation.framework */,
+				4DB3B1F517CFB57000C59618 /* AudioToolbox.framework */,
+				80003CC417A046ED0042DD00 /* UIKit.framework */,
+				80003CC617A046ED0042DD00 /* Foundation.framework */,
+				80003CC817A046ED0042DD00 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80003CCA17A046ED0042DD00 /* LearningWithLenny */ = {
+			isa = PBXGroup;
+			children = (
+				4D7F35BC17CC9C64008DDBC6 /* ReadData.h */,
+				4D7F35BD17CC9C64008DDBC6 /* ReadData.m */,
+				80003CD317A046ED0042DD00 /* LWLSAppDelegate.h */,
+				80003CD417A046ED0042DD00 /* LWLSAppDelegate.m */,
+				80003CDC17A046ED0042DD00 /* LWLSViewController.h */,
+				80003CDD17A046ED0042DD00 /* LWLSViewController.m */,
+				803FB1B917A0F050008F3D8D /* HowToUseViewController.h */,
+				803FB1BA17A0F050008F3D8D /* HowToUseViewController.m */,
+				803FB1C217A169A0008F3D8D /* SettingsViewController.h */,
+				803FB1C317A169A0008F3D8D /* SettingsViewController.m */,
+				803FB1CB17A16ABC008F3D8D /* ListOfSequencesViewController.h */,
+				803FB1CC17A16ABC008F3D8D /* ListOfSequencesViewController.m */,
+				80E8B5A317A185C900BE6390 /* SequenceViewController.h */,
+				80E8B5A417A185C900BE6390 /* SequenceViewController.m */,
+				4D7F35B917CC9AA6008DDBC6 /* NameConstant.h */,
+				4DCCE6F017E412A900EE7515 /* DataManager.h */,
+				4DCCE6F117E412A900EE7515 /* DataManager.m */,
+				CEA976C717E7635000D1D3AD /* SaveVoiceViewController.h */,
+				CEA976C817E7635000D1D3AD /* SaveVoiceViewController.m */,
+				C35CD06417E7899E007727F4 /* AddyourOwnSequenceViewController.h */,
+				C35CD06517E7899E007727F4 /* AddyourOwnSequenceViewController.m */,
+				4D45BCFC17E7D98E00D15A36 /* AddOwnData.h */,
+				4D45BCFD17E7D98E00D15A36 /* AddOwnData.m */,
+				8088841E18047313006ADDB6 /* CustomNavigationController.h */,
+				8088841F18047313006ADDB6 /* CustomNavigationController.m */,
+				8088842118048C49006ADDB6 /* CustomAudioPlayer.h */,
+				8088842218048C49006ADDB6 /* CustomAudioPlayer.m */,
+				80BD599F17A0C21400D4DAA8 /* Resources */,
+				80003CCB17A046ED0042DD00 /* Supporting Files */,
+			);
+			path = LearningWithLenny;
+			sourceTree = "<group>";
+		};
+		80003CCB17A046ED0042DD00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80003CCC17A046ED0042DD00 /* LearningWithLenny-Info.plist */,
+				80003CCD17A046ED0042DD00 /* InfoPlist.strings */,
+				80003CD017A046ED0042DD00 /* main.m */,
+				80003CD217A046ED0042DD00 /* LearningWithLenny-Prefix.pch */,
+				80003CD617A046ED0042DD00 /* Default.png */,
+				80003CD817A046ED0042DD00 /* Default@2x.png */,
+				80003CDA17A046ED0042DD00 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		804CF05517F3E11600C4F4AE /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				804CF05617F3E11600C4F4AE /* record_off.png */,
+				804CF05717F3E11600C4F4AE /* record_off@2x.png */,
+				804CF05817F3E11600C4F4AE /* record_on.png */,
+				804CF05917F3E11600C4F4AE /* record_on@2x.png */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		8085B55D17A622B100339BC1 /* imageback */ = {
+			isa = PBXGroup;
+			children = (
+				8085B55E17A622B100339BC1 /* image1.png */,
+				8085B55F17A622B100339BC1 /* image2.png */,
+				8085B56017A622B100339BC1 /* image3.png */,
+				8085B56117A622B100339BC1 /* image4.png */,
+			);
+			path = imageback;
+			sourceTree = "<group>";
+		};
+		80BD599F17A0C21400D4DAA8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DB3B1F017CFB1E500C59618 /* first.png */,
+				4DB3B1F117CFB1E500C59618 /* second.png */,
+				4DB3B1F417CFB1EF00C59618 /* New Group */,
+				80BD59A017A0C21400D4DAA8 /* images */,
+				80BD59A117A0C21400D4DAA8 /* xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80BD59A017A0C21400D4DAA8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				804CF05517F3E11600C4F4AE /* buttons */,
+				80C6924A17C6874A006CE194 /* Brushing teeth */,
+				80C6924E17C6874A006CE194 /* Eating cereal */,
+				80C6925217C6874A006CE194 /* Sweeping the floor */,
+				8085B55D17A622B100339BC1 /* imageback */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		80BD59A117A0C21400D4DAA8 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				CE126D7817E9A65C00829403 /* SaveVoiceViewController_iPad.xib */,
+				CEA976C917E7635000D1D3AD /* SaveVoiceViewController_iPhone.xib */,
+				80E8B5A817A1861B00BE6390 /* SequenceViewController_iPad.xib */,
+				80E8B5A917A1861B00BE6390 /* SequenceViewController_iPhone.xib */,
+				803FB1D117A16B1E008F3D8D /* ListOfSequencesViewController_iPhone.xib */,
+				4DB8B00C17D0C8C500D113C7 /* ListOfSequencesViewController_iPad.xib */,
+				803FB1C717A169F9008F3D8D /* SettingsViewController_iPad.xib */,
+				803FB1C817A169F9008F3D8D /* SettingsViewController_iPhone.xib */,
+				803FB1BE17A0F0D8008F3D8D /* HowToUseViewController_iPad.xib */,
+				803FB1BF17A0F0D8008F3D8D /* HowToUseViewController_iPhone.xib */,
+				80BD59A217A0C21400D4DAA8 /* LWLSViewController_iPad.xib */,
+				80BD59A317A0C21400D4DAA8 /* LWLSViewController_iPhone.xib */,
+				80BD59A617A0C25A00D4DAA8 /* MainWindow_iPhone.xib */,
+				4DBBCC6B17D351EE005E58C8 /* MainWindow_iPad.xib */,
+				C35CD06617E7899F007727F4 /* AddyourOwnSequenceViewController_iPhone.xib */,
+				4D45BD4F17E94C4800D15A36 /* AddyourOwnSequenceViewController_iPad.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		80C6924A17C6874A006CE194 /* Brushing teeth */ = {
+			isa = PBXGroup;
+			children = (
+				80C6924B17C6874A006CE194 /* brushing teeth.jpg */,
+				80C6924C17C6874A006CE194 /* rinsing mouth.jpg */,
+				80C6924D17C6874A006CE194 /* toothpaste on toothbrush.jpg */,
+			);
+			path = "Brushing teeth";
+			sourceTree = "<group>";
+		};
+		80C6924E17C6874A006CE194 /* Eating cereal */ = {
+			isa = PBXGroup;
+			children = (
+				80C6924F17C6874A006CE194 /* eating cereal.jpg */,
+				80C6925017C6874A006CE194 /* pouring cereal in bowl.jpg */,
+				80C6925117C6874A006CE194 /* pouring milk in cereal.jpg */,
+			);
+			path = "Eating cereal";
+			sourceTree = "<group>";
+		};
+		80C6925217C6874A006CE194 /* Sweeping the floor */ = {
+			isa = PBXGroup;
+			children = (
+				80C6925317C6874A006CE194 /* dirt into garbage.jpg */,
+				80C6925417C6874A006CE194 /* into dustpan.jpg */,
+				80C6925517C6874A006CE194 /* sweeping dirt into pile.jpg */,
+			);
+			path = "Sweeping the floor";
+			sourceTree = "<group>";
+		};
+		CE764C2517E8A1650009ED1F /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				8092BBEC1817FD6100D8D2E8 /* What happens first.mp3 */,
+				8092BBED1817FD6100D8D2E8 /* What happens next.mp3 */,
+				4DB94A2D17ED2EC200FEB3CB /* Yeah.mp3 */,
+				4DD26AE017EC271D00DFE547 /* last.mp3 */,
+				CE79805517EC05CC001970D9 /* applause.mp3 */,
+				CE79805617EC05CC001970D9 /* first.mp3 */,
+				CE79805817EC05CC001970D9 /* second.mp3 */,
+				CE79805917EC05CC001970D9 /* third.mp3 */,
+				4D45BD4D17E9433E00D15A36 /* rinsing mouth.mp3 */,
+				CE764C2617E8A1650009ED1F /* background.mp3 */,
+				CE764C2717E8A1650009ED1F /* Brushing teeth.mp3 */,
+				CE764C2817E8A1650009ED1F /* dirt into garbage.mp3 */,
+				CE764C2917E8A1650009ED1F /* eating cereal .mp3 */,
+				CE764C2A17E8A1650009ED1F /* Eating Cereal.mp3 */,
+				CE764C2B17E8A1650009ED1F /* into dustpan.mp3 */,
+				CE764C2C17E8A1650009ED1F /* Oops.mp3 */,
+				CE764C2D17E8A1650009ED1F /* pouring cereal in bowl.mp3 */,
+				CE764C2E17E8A1650009ED1F /* pouring milk in cereal.mp3 */,
+				CE764C2F17E8A1650009ED1F /* Put the pictures in the correct order.mp3 */,
+				CE764C3017E8A1650009ED1F /* sweeping dirt into pile.mp3 */,
+				CE764C3117E8A1650009ED1F /* Sweeping the floor.mp3 */,
+				CE764C3217E8A1650009ED1F /* toothpaste on toothbrush.mp3 */,
+				CE764C3317E8A1650009ED1F /* Try again.mp3 */,
+				CE764C3417E8A1650009ED1F /* Way to go.mp3 */,
+				CE764C3617E8A1650009ED1F /* You got it.mp3 */,
+				4DB8B00A17D08C1D00D113C7 /* LearningLearny.plist */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80003CC017A046ED0042DD00 /* LearningWithLenny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80003CE717A046ED0042DD00 /* Build configuration list for PBXNativeTarget "LearningWithLenny" */;
+			buildPhases = (
+				80003CBD17A046ED0042DD00 /* Sources */,
+				80003CBE17A046ED0042DD00 /* Frameworks */,
+				80003CBF17A046ED0042DD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningWithLenny;
+			productName = LearningWithLenny;
+			productReference = 80003CC117A046ED0042DD00 /* LearningWithLenny.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80003CB917A046ED0042DD00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LWLS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = JinHong;
+			};
+			buildConfigurationList = 80003CBC17A046ED0042DD00 /* Build configuration list for PBXProject "LearningWithLenny" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80003CB817A046ED0042DD00;
+			productRefGroup = 80003CC217A046ED0042DD00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80003CC017A046ED0042DD00 /* LearningWithLenny */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80003CBF17A046ED0042DD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80003CCF17A046ED0042DD00 /* InfoPlist.strings in Resources */,
+				80003CD717A046ED0042DD00 /* Default.png in Resources */,
+				80003CD917A046ED0042DD00 /* Default@2x.png in Resources */,
+				80003CDB17A046ED0042DD00 /* Default-568h@2x.png in Resources */,
+				80BD59A417A0C21400D4DAA8 /* LWLSViewController_iPad.xib in Resources */,
+				80BD59A517A0C21400D4DAA8 /* LWLSViewController_iPhone.xib in Resources */,
+				80BD59A717A0C25A00D4DAA8 /* MainWindow_iPhone.xib in Resources */,
+				803FB1C017A0F0D8008F3D8D /* HowToUseViewController_iPad.xib in Resources */,
+				803FB1C117A0F0D8008F3D8D /* HowToUseViewController_iPhone.xib in Resources */,
+				803FB1C917A169F9008F3D8D /* SettingsViewController_iPad.xib in Resources */,
+				803FB1CA17A169F9008F3D8D /* SettingsViewController_iPhone.xib in Resources */,
+				803FB1D317A16B1E008F3D8D /* ListOfSequencesViewController_iPhone.xib in Resources */,
+				80E8B5AA17A1861B00BE6390 /* SequenceViewController_iPad.xib in Resources */,
+				80E8B5AB17A1861B00BE6390 /* SequenceViewController_iPhone.xib in Resources */,
+				8085B56217A622B100339BC1 /* image1.png in Resources */,
+				8085B56317A622B100339BC1 /* image2.png in Resources */,
+				8085B56417A622B100339BC1 /* image3.png in Resources */,
+				8085B56517A622B100339BC1 /* image4.png in Resources */,
+				80C6925617C6874A006CE194 /* brushing teeth.jpg in Resources */,
+				80C6925717C6874A006CE194 /* rinsing mouth.jpg in Resources */,
+				80C6925817C6874A006CE194 /* toothpaste on toothbrush.jpg in Resources */,
+				80C6925917C6874A006CE194 /* eating cereal.jpg in Resources */,
+				80C6925A17C6874A006CE194 /* pouring cereal in bowl.jpg in Resources */,
+				80C6925B17C6874A006CE194 /* pouring milk in cereal.jpg in Resources */,
+				80C6925C17C6874A006CE194 /* dirt into garbage.jpg in Resources */,
+				80C6925D17C6874A006CE194 /* into dustpan.jpg in Resources */,
+				80C6925E17C6874A006CE194 /* sweeping dirt into pile.jpg in Resources */,
+				4DB3B1F217CFB1E500C59618 /* first.png in Resources */,
+				4DB3B1F317CFB1E500C59618 /* second.png in Resources */,
+				4DB8B00B17D08C1D00D113C7 /* LearningLearny.plist in Resources */,
+				4DB8B00D17D0C8C500D113C7 /* ListOfSequencesViewController_iPad.xib in Resources */,
+				4DBBCC6C17D351EE005E58C8 /* MainWindow_iPad.xib in Resources */,
+				CEA976CB17E7635000D1D3AD /* SaveVoiceViewController_iPhone.xib in Resources */,
+				C35CD06817E789A0007727F4 /* AddyourOwnSequenceViewController_iPhone.xib in Resources */,
+				CE764C3717E8A1650009ED1F /* background.mp3 in Resources */,
+				CE764C3817E8A1650009ED1F /* Brushing teeth.mp3 in Resources */,
+				CE764C3917E8A1650009ED1F /* dirt into garbage.mp3 in Resources */,
+				CE764C3A17E8A1650009ED1F /* eating cereal .mp3 in Resources */,
+				CE764C3B17E8A1650009ED1F /* Eating Cereal.mp3 in Resources */,
+				CE764C3C17E8A1650009ED1F /* into dustpan.mp3 in Resources */,
+				CE764C3D17E8A1650009ED1F /* Oops.mp3 in Resources */,
+				CE764C3E17E8A1650009ED1F /* pouring cereal in bowl.mp3 in Resources */,
+				CE764C3F17E8A1650009ED1F /* pouring milk in cereal.mp3 in Resources */,
+				CE764C4017E8A1650009ED1F /* Put the pictures in the correct order.mp3 in Resources */,
+				CE764C4117E8A1650009ED1F /* sweeping dirt into pile.mp3 in Resources */,
+				CE764C4217E8A1650009ED1F /* Sweeping the floor.mp3 in Resources */,
+				CE764C4317E8A1650009ED1F /* toothpaste on toothbrush.mp3 in Resources */,
+				CE764C4417E8A1650009ED1F /* Try again.mp3 in Resources */,
+				CE764C4517E8A1650009ED1F /* Way to go.mp3 in Resources */,
+				CE764C4717E8A1650009ED1F /* You got it.mp3 in Resources */,
+				4D45BD4E17E9433E00D15A36 /* rinsing mouth.mp3 in Resources */,
+				4D45BD5017E94C4800D15A36 /* AddyourOwnSequenceViewController_iPad.xib in Resources */,
+				CE126D7917E9A65C00829403 /* SaveVoiceViewController_iPad.xib in Resources */,
+				CE79805A17EC05CC001970D9 /* applause.mp3 in Resources */,
+				CE79805B17EC05CC001970D9 /* first.mp3 in Resources */,
+				CE79805D17EC05CC001970D9 /* second.mp3 in Resources */,
+				CE79805E17EC05CC001970D9 /* third.mp3 in Resources */,
+				4DD26AE117EC271D00DFE547 /* last.mp3 in Resources */,
+				4DB94A2E17ED2EC200FEB3CB /* Yeah.mp3 in Resources */,
+				804CF05A17F3E11600C4F4AE /* record_off.png in Resources */,
+				804CF05B17F3E11600C4F4AE /* record_off@2x.png in Resources */,
+				804CF05C17F3E11600C4F4AE /* record_on.png in Resources */,
+				804CF05D17F3E11600C4F4AE /* record_on@2x.png in Resources */,
+				8092BBEE1817FD6100D8D2E8 /* What happens first.mp3 in Resources */,
+				8092BBEF1817FD6100D8D2E8 /* What happens next.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80003CBD17A046ED0042DD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80003CD117A046ED0042DD00 /* main.m in Sources */,
+				80003CD517A046ED0042DD00 /* LWLSAppDelegate.m in Sources */,
+				80003CDE17A046ED0042DD00 /* LWLSViewController.m in Sources */,
+				803FB1BC17A0F050008F3D8D /* HowToUseViewController.m in Sources */,
+				803FB1C517A169A0008F3D8D /* SettingsViewController.m in Sources */,
+				803FB1CE17A16ABC008F3D8D /* ListOfSequencesViewController.m in Sources */,
+				80E8B5A617A185C900BE6390 /* SequenceViewController.m in Sources */,
+				4D7F35BE17CC9C64008DDBC6 /* ReadData.m in Sources */,
+				4DCCE6F217E412A900EE7515 /* DataManager.m in Sources */,
+				CEA976CA17E7635000D1D3AD /* SaveVoiceViewController.m in Sources */,
+				C35CD06717E789A0007727F4 /* AddyourOwnSequenceViewController.m in Sources */,
+				4D45BCFE17E7D98E00D15A36 /* AddOwnData.m in Sources */,
+				8088842018047313006ADDB6 /* CustomNavigationController.m in Sources */,
+				8088842318048C49006ADDB6 /* CustomAudioPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80003CCD17A046ED0042DD00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80003CCE17A046ED0042DD00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80003CE517A046ED0042DD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jin Hong (EDYP95CVRJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jin Hong (EDYP95CVRJ)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "C6ED26C7-A705-40A3-A2F5-87893FE5E27C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C6ED26C7-A705-40A3-A2F5-87893FE5E27C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80003CE617A046ED0042DD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jin Hong (EDYP95CVRJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jin Hong (EDYP95CVRJ)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C6ED26C7-A705-40A3-A2F5-87893FE5E27C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C6ED26C7-A705-40A3-A2F5-87893FE5E27C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80003CE817A046ED0042DD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jin Hong (EDYP95CVRJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jin Hong (EDYP95CVRJ)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningWithLenny/LearningWithLenny-Prefix.pch";
+				INFOPLIST_FILE = "LearningWithLenny/LearningWithLenny-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C6ED26C7-A705-40A3-A2F5-87893FE5E27C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C6ED26C7-A705-40A3-A2F5-87893FE5E27C";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80003CE917A046ED0042DD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jin Hong (EDYP95CVRJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jin Hong (EDYP95CVRJ)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningWithLenny/LearningWithLenny-Prefix.pch";
+				INFOPLIST_FILE = "LearningWithLenny/LearningWithLenny-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C6ED26C7-A705-40A3-A2F5-87893FE5E27C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C6ED26C7-A705-40A3-A2F5-87893FE5E27C";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80003CBC17A046ED0042DD00 /* Build configuration list for PBXProject "LearningWithLenny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80003CE517A046ED0042DD00 /* Debug */,
+				80003CE617A046ED0042DD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80003CE717A046ED0042DD00 /* Build configuration list for PBXNativeTarget "LearningWithLenny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80003CE817A046ED0042DD00 /* Debug */,
+				80003CE917A046ED0042DD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80003CB917A046ED0042DD00 /* Project object */;
+}
